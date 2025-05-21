@@ -233,14 +233,15 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     shortDescription:
         "Flutter App that connects to a smart seat cushion to help prevent pressure ulcers in wheelchair users ",
     description: """
-	Designed and developed a Flutter mobile app that connects to a smart seat cushion to help prevent pressure ulcers in wheelchair users by tracking and adjusting seating pressure in real time
-	Integrated Bluetooth Low Energy (BLE) to connect the app with an ESP32-based pressure sensor system, allowing real-time reading of seating pressure data
-	Implemented dynamic heatmap visualizations to display live pressure distribution across the cushion, helping users identify high-pressure zones and adjust posture accordingly
-	Integrated a TensorFlow Lite (TF Lite) model to perform on-device classification of 10 seating positions (e.g. Forward, Back, Normal), using live pressure sensor data for real-time posture detection and tracking
-	Implemented a posture accuracy evaluation system that calculates the user’s adherence to repositioning tasks by tracking misclassifications during each posture and logging results to Firestore for clinical feedback
-	Developed a posture reminder system that alerts users when a posture is maintained for prolonged periods, promoting healthy sitting habits
-	Developed a feature to generate detailed PDF reports of user posture history, repositioning accuracy, and visual analytics for clinical documentation and progress tracking
-	Developed a responsive Flutter interface enabling real-time seat adjustment functions—inflate, deflate, redistribute, and equalize—through Bluetooth command integration for cushion control
+	•Designed and developed a Flutter mobile app that connects to a smart seat cushion to help prevent pressure ulcers in wheelchair users by tracking and adjusting seating pressure in real time
+	•Integrated Bluetooth Low Energy (BLE) to connect the app with an ESP32-based pressure sensor system, allowing real-time reading of seating pressure data
+	•Implemented dynamic heatmap visualizations to display live pressure distribution across the cushion, helping users identify high-pressure zones and adjust posture accordingly
+	•Integrated a TensorFlow Lite (TF Lite) model to perform on-device classification of 10 seating positions (e.g. Forward, Back, Normal), using live pressure sensor data for real-time posture detection and tracking
+	•Implemented a posture accuracy evaluation system that calculates the user’s adherence to repositioning tasks by tracking misclassifications during each posture and logging results to Firestore for clinical feedback
+	•Developed a posture reminder system that alerts users when a posture is maintained for prolonged periods, promoting healthy sitting habits
+	•Developed a feature to generate detailed PDF reports of user posture history, repositioning accuracy, and visual analytics for clinical documentation and progress tracking
+	•Developed a responsive Flutter interface enabling real-time seat adjustment functions—inflate, deflate, redistribute, and equalize—through Bluetooth command integration for cushion control
+  •The paper titled "Smart Seat Cushion Mobile Application with On-Device Posture Prediction Using TensorFlow Lite" by S. Kumar, P. Kashyap, S. Kongara, Y. Tzen, and M. Wijesundara has been submitted to Disability and Rehabilitation: Assistive Technology and is currently under review.
         """,
     link: ProjectInfo(
       icon: kiLink,
@@ -294,14 +295,14 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     shortDescription:
         "An all-in-one Android app designed to offer smart college services such as canteen ordering, event registration, bus tracking, and cleanliness reporting.",
     description: """
-The app provides students with convenient access to smart services such as:
-Canteen ordering system
-Lost and found management
-Cleanliness and maintenance reporting
-Library access
-Real-time college bus tracking via GPS
-Applying for college events and placement opportunities
-Dedicated admin panels are available for canteen staff, event coordinators, and placement officers to manage and respond to student requests effectively. For example, the canteen admin can view and process food orders, event admins can post upcoming events, and placement admins can update opportunities.A unique feature of the app includes a machine learning (ML) module that processes student feedback on food items. Using a Recurrent Neural Network (RNN), the model classifies feedback as positive or negative and converts it into a rating. 
+•The app provides students with convenient access to smart services such as:
+•Canteen ordering system
+•Lost and found management
+•Cleanliness and maintenance reporting
+•Library access
+•Real-time college bus tracking via GPS
+•Applying for college events and placement opportunities
+•Dedicated admin panels are available for canteen staff, event coordinators, and placement officers to manage and respond to student requests effectively. For example, the canteen admin can view and process food orders, event admins can post upcoming events, and placement admins can update opportunities.A unique feature of the app includes a machine learning (ML) module that processes student feedback on food items. Using a Recurrent Neural Network (RNN), the model classifies feedback as positive or negative and converts it into a rating. 
         """,
     link: ProjectInfo(
         icon: kiLink,

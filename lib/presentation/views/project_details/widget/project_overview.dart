@@ -84,8 +84,30 @@ class _ProjectOverviewState extends State<ProjectOverview>
               Theme.of(context).textTheme.bodyLarge,
               Theme.of(context).textTheme.bodyMedium,
             )
-            ?.copyWith(fontWeight: bold, fontSize: 12),
+            ?.copyWith(fontSize: 12),
       ),
+      verticalSpaceMedium,
+      Text(
+        "Publications",
+        style: context
+            .adaptive(
+              Theme.of(context).textTheme.bodyLarge,
+              Theme.of(context).textTheme.bodyMedium,
+            )
+            ?.copyWith(fontWeight: bold, fontSize: 30),
+      ),
+
+      verticalSpaceMedium,
+      Text(
+        "S. Kumar, P. Kashyap, S. Kongara, Y. Tzen, and M. Wijesundara, “Smart Seat Cushion Mobile Application with On-Device Posture Prediction Using TensorFlow Lite,” submitted to Disability and Rehabilitation: Assistive Technology, under review.",
+        style: context
+            .adaptive(
+              Theme.of(context).textTheme.bodyLarge,
+              Theme.of(context).textTheme.bodyMedium,
+            )
+            ?.copyWith(fontSize: 12),
+      ),
+
       context.percentSizedBox(
         pHeight: s3,
       ),
@@ -111,6 +133,7 @@ class _ProjectOverviewState extends State<ProjectOverview>
           info: widget.project.author,
         ),
       ].addWrap(),
+      verticalSpaceSmall,
     ]
         .addColumn(
           crossAxisAlignment: CrossAxisAlignment.start,

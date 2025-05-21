@@ -64,7 +64,7 @@ const String ksSpecialization =
 const String ksWhoAmI = 'Who Am I?';
 const String ksWhatILove = "What I Love To Do";
 const String ksBriefAboutMe =
-    "Hi! I’m Pranav Kashyap Gujja, a Front-end Software Engineer with an M.S. in Computer Science Engineering from the University of Texas at Arlington. ";
+    "Hi! I’m Pranav Kashyap Gujja, a Software Engineer with an M.S. in Computer Science Engineering from the University of Texas at Arlington. ";
 const String ksMyLife =
     "I specialize in mobile development, building responsive, scalable apps with clear architecture and intuitive interfaces";
 const String ksProfession =

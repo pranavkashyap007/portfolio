@@ -80,8 +80,10 @@ class _ProjectDetailsViewState extends State<ProjectDetailsView>
             top: s0,
             child: Image.asset(
               project.image,
-              width: context.percentWidth(context.adaptive(s20, s30)),
-              height: context.percentHeight(s10),
+              width: context.adaptive(
+                  context.percentWidth(s20), context.percentWidth(s20)),
+              height: context.adaptive(
+                  context.percentHeight(s20), context.percentHeight(s20)),
             ).addHero(tag: project.heroTag),
           ),
           <Widget>[

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:portfolio_flutter/data/model/showcase_project.dart';
 import 'package:portfolio_flutter/presentation/utils/extensions/extensions.dart';
-import 'package:portfolio_flutter/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 import 'info_section.dart';

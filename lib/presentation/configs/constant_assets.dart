@@ -17,7 +17,7 @@ const String kaCoffee = "$basePath$mePath/coffee.svg";
 
 /// project images
 const String projectPath = "/projects";
-const String kaPulseX = "$basePath$projectPath/seat.jpg";
+const String kaPulseX = "$basePath$projectPath/seat1.jpg";
 const String kaThread = "$basePath$projectPath/thread.png";
 const String kaNotee = "$basePath$projectPath/smartcampus.png";
 const String kaTheGoldenLand = "$basePath$projectPath/the_golden_land.png";
